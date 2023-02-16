@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>자기소개 페이지</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='../js/index.js'></script>
+</head>
+<style>
+    table {
+        width: 100%;
+        border: 1px solid #444444;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #444444;
+    }
+
+    td {
+        padding: 10px;
+        border: 1px solid #666666;
+        white-space: nowrap;
+    }
+    img {
+        max-width: 80px;
+        height: auto;
+    }
+
+    
+</style>
+<body>
+    <div>
+        <h1>자기소개</h1>
+        <ul>
+            <li>이름 : 키아라</li>
+            <li>사는 곳 : 용인 수지 </li>
+            <li>안녕하세요 키아라 입니다. 라이온킹 좋아하시나요? 저는 좋아합니다.</li>
+        </ul>
+    </div>
+    <hr />
+    <div>
+        <h1>인생 영화 BEST5</h1>
+        <table>
+            <tr>
+                <th scope="col">순위</td>
+                <th scope="col">제목</td>
+                <th scope="col">포스터</td>
+                <th scope="col">줄거리</td>
+                <th scope="col">바로가기</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>올드가드</td>
+                <td><img src="../images/올드가드.jpeg" alt="My Image"></td>
+                <td class="t2">오랜 시간을 거치며 세상의 어둠과 맞서운 불멸의 존재들이 세계를 수호하기 위해 또다시 힘을 합쳐 위기와 싸워나가는 이야기</td>
+                <td><a href="https://movie.daum.net/moviedb/main?movieId=138427">클릭</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>크루엘라</td>
+                <td><img src="../images/크루엘라.jpeg" alt="My Image"></td>
+                <td>처음부터 난 알았어. 내가 특별하단 걸 그게 불편한 인간들도 있겠지만 모두의 비위를 맞출 수는 없잖아?</td>
+                <td><a href="https://movie.daum.net/moviedb/main?movieId=108699">클릭</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>해리포터 : 혼혈왕자</td>
+                <td><img src="../images/해리포터.jpeg" alt="My Image"></td>
+                <td>어둠의 세력이 더욱 강력해져 머글 세계와 호그와트까지 위협해온다. <br>남겨진 결전을 위한 최후의 미션, 볼드모트와 해리 포터에 얽힌 치명적인 비밀, <br>선택된 자만이 통과할 수 있는 대단원을 향한 본격적인 대결이 시작된다!</td>
+                <td><a href="https://movie.daum.net/moviedb/main?movieId=43729">클릭</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>라이온킹</td>
+                <td><img src="../images/라이온킹.jpeg" alt="My Image"></td>
+                <td>어린 사자 ‘심바’는 프라이드 랜드의 왕인 아버지 ‘무파사’를 야심과 욕망이 가득한 삼촌 ‘스카’의 음모로 잃고 왕국에서도 쫓겨난다. <br>기억해라! 네가 누군지. 아버지의 죽음에 대한 죄책감에 시달리던 ‘심바’는 의욕 충만한 친구들 ‘품바’와 ‘티몬’의 도움으로 희망을 되찾는다.</td>
+                <td><a href="https://movie.daum.net/moviedb/main?movieId=2658">클릭</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>사운드 오브 뮤직</td>
+                <td><img src="../images/사운드오브뮤직.jpeg" alt="My Image"></td>
+                <td>음악을 사랑하는 말괄량이 견습 수녀 ‘마리아’는 원장 수녀의 권유로 해군 명문 집안 폰 트랩가의 가정교사가 된다. <br>‘마리아’는 좀처럼 마음의 문을 열지 않는 폰 트랩가의 일곱 아이들에게 노래를 가르치며 점차 교감하게 되고, 엄격한 ‘폰 트랩 대령’ 역시 마음의 문을 열게 된다. <br>그러던 어느 날, ‘마리아’는 자신이 ‘폰 트랩 대령’을 사랑하고 있다는 사실을 깨닫게 되고, 그 비밀을 간직한 채 아이들을 떠나 다시 수녀원에 들어가기로 결심하는데…</td>
+                <td><a href="https://movie.daum.net/moviedb/main?movieId=1856">클릭</a></td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+    <div>
+        <h1>방명록</h1>
+        <div>
+            <p>이름 : <input type="text" id="yourName"></p>
+            <p>본인 취향 영화</p>
+            <label><input type="checkbox" id="1" >올드가드</label>
+            <label><input type="checkbox" id="2" >크루엘라</label>
+            <label><input type="checkbox" id="3" >해리포터 : 혼혈왕자</label>
+            <label><input type="checkbox" id="4" >라이온킹</label>
+            <label><input type="checkbox" id="5" >사운드 오브 뮤직</label>
+            <br><br>
+            <button type="button" onclick="getAlert()">등록</button>
+            <button type="reset">취소</button>
+        </div>
+        <br><br>
+    </div>
+</body>
+
+</html>
